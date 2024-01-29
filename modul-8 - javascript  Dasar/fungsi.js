@@ -3,10 +3,16 @@ var y = "3.14";
 
 var toNum = parseInt(x);
 var toFloat = parseFloat(y);
-console.log(toNum + toNum);
+var toString = toNum.toString();
+console.log(toString + toString);
 
 function jumlah(a, b) {
     return a + b;
 }
 
+function kurang(a, b) {
+    return a - b;
+}
+
 alert(jumlah(5, 20));
+alert(kurang(25, 5));
