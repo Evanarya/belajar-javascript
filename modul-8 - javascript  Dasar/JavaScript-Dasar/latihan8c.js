@@ -23,9 +23,9 @@ if (user == 1 && computer == "Gajah") { // User 1
     alert('Seri Komputer Memilih ' + computer)
 } else if (user == 3 && computer == "Gajah") { // User 3
     alert('Seri Komputer Memilih ' + computer)
-} else if (user == 2 && computer == "Semut") {
+} else if (user == 3 && computer == "Semut") {
     alert('Kamu Kalah Komputer Memilih ' + computer)
-} else if (user == 2 && computer == "Orang") {
+} else if (user == 3 && computer == "Orang") {
     alert('Kamu Menang Komputer Memilih ' + computer)
 } else {
     alert('Masukan Input yang Benar')
